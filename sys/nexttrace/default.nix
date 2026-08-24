@@ -1,0 +1,3 @@
+{
+  programs.nexttrace.enable = true;
+}
