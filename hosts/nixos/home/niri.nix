@@ -13,7 +13,7 @@
           max-scroll-amount = "100%";
         };
       };
-      outputs."DP-3" = {
+      outputs."DP-1" = {
         mode = {
           height = 1440;
           width = 2560;
