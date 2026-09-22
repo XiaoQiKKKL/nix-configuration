@@ -335,9 +335,22 @@
         "Mod+Shift+V".action.switch-focus-between-floating-and-tiling = { };
         "Mod+W".action.toggle-column-tabbed-display = { };
 
-        "Print".action.screenshot = { };
-        "Ctrl+Print".action.screenshot-screen = { };
-        "Alt+Print".action.screenshot-window = { };
+        "Print".action.spawn = [
+          "noctalia"
+          "msg"
+          "screenshot-region"
+        ];
+        "Ctrl+Print".action.spawn = [
+          "noctalia"
+          "msg"
+          "screenshot-fullscreen"
+        ];
+        "Alt+Print".action.spawn = [
+          "noctalia"
+          "msg"
+          "screenshot-fullscreen"
+          "all"
+        ];
 
         "Mod+Escape" = {
           action.toggle-keyboard-shortcuts-inhibit = { };

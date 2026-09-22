@@ -14,7 +14,6 @@
       ruff
     ];
   };
-  stylix.targets.neovim.enable = false;
   xdg.configFile."nvim" = {
     source = ./config;
     recursive = true;

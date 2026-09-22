@@ -18,6 +18,8 @@
     ../../../home/fish
     ../../../home/niri
     ../../../home/wechat
+    ../../../home/k3s
+    ../../../home/fcitx5
     ./desktop.nix
     ./tools.nix
   ];

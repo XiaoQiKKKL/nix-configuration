@@ -2,6 +2,6 @@
   services.qbittorrent = {
     enable = true;
     user = "xiaoqi";
-    webuiPort = 8080;
+    webuiPort = 6060;
   };
 }

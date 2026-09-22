@@ -1,9 +1,6 @@
+{ inputs, pkgs, ... }:
 {
-  inputs,
-  pkgs,
-  ...
-}:
-{
+  services.xserver.enable = true;
   imports = [
     inputs.niri.nixosModules.niri
   ];

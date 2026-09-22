@@ -6,35 +6,28 @@
   imports = [
     # Include the results of the hardware scan.
     ./hardware-configuration.nix
-    ./bootloader.nix
-    ./kernel.nix
-    ./xdg.nix
-    ./network.nix
     ./user.nix
-    ../../sys/core.nix
+
+    ../../sys/core
+    ../../sys/desktop
+
     ../../sys/drivers/nvidia-3060ti-g6x.nix
     ../../sys/drivers/otd.nix
     ../../sys/drivers/printing.nix
     ../../sys/drivers/touchpad.nix
-    ../../sys/display.nix
-    ../../sys/pipewire
     ../../sys/flatpak
-    ../../sys/fonts.nix
-    ../../sys/stylix
     ../../sys/docker
-    ../../sys/mihomo
-    ../../sys/sing-box
-    # ../../sys/xray
     ../../sys/sunshine
-    ../../sys/nexttrace
     ../../sys/qbittorrent
-    ../../sys/noctalia
-    ../../sys/fcitx5
-    ../../sys/caddy
     ../../sys/steam
     ../../sys/gamescope
-    ../../sys/niri
-    ../../sys/sops-nix
+    ../../sys/k3s
+    ../../sys/postgresql
+
+    ./postgres-ess.nix
+    ./caddy
+    ./sing-box
+    ./mihomo
   ];
 
   # Workaround for GNOME autologin: https://github.com/NixOS/nixpkgs/issues/103746#issuecomment-945091229

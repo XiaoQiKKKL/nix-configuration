@@ -12,7 +12,7 @@
     enable = true;
 
     base16Scheme = "${pkgs.base16-schemes}/share/themes/catppuccin-mocha.yaml";
-    image = ./wallpaper.jpg;
+    image = ./wallpaper.png;
     polarity = "dark";
     fonts = {
       monospace = {
@@ -23,5 +23,13 @@
       sansSerif = config.stylix.fonts.monospace;
       emoji = config.stylix.fonts.monospace;
     };
+  };
+  fonts = {
+    fontconfig.enable = true;
+    packages = with pkgs; [
+      noto-fonts-cjk-sans
+      wqy_zenhei
+      maple-mono.NF-CN-unhinted
+    ];
   };
 }

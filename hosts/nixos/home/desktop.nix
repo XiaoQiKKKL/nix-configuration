@@ -10,6 +10,9 @@
     localsend
     kdePackages.ark
     v2rayn
+    google-chrome
+    gimp-with-plugins
+    krita
 
     # 游戏与运行环境
     hmcl
