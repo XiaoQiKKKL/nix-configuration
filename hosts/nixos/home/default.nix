@@ -9,19 +9,16 @@
   };
 
   imports = [
+    ../../../home/core
+    ../../../home/desktop
+
     ../../../home/obs
-    ../../../home/yazi
-    ../../../home/zen
-    ../../../home/neovim
-    ../../../home/noctalia
-    ../../../home/git
-    ../../../home/fish
-    ../../../home/niri
     ../../../home/wechat
     ../../../home/k3s
-    ../../../home/fcitx5
+
     ./desktop.nix
     ./tools.nix
+    ./niri.nix
   ];
 
   xdg.portal.enable = true;
