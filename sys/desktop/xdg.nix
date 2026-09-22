@@ -1,5 +1,6 @@
 { pkgs, ... }:
 {
+  # Enable the X11 windowing system.
   xdg = {
     portal = {
       enable = true;

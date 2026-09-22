@@ -20,6 +20,7 @@
     tree
     file
     which
+    tmux
     cowsay
     gawk
     gnused
@@ -35,6 +36,12 @@
 
     # 网络与抓包工具
     android-tools
+    apktool
+    apksigner
+    wireguard-tools
+    nethogs
+    mihomo
+    sing-box
     bind
     nmap
     tcpdump
