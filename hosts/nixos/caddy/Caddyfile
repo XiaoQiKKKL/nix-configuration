@@ -1,0 +1,23 @@
+{
+	"data": "ENC[AES256_GCM,data:N2SYnfFuU7N5cPfn80TdZfu/uUfqdPzmv2n/w2JNBiMBMN+UfxS4tiUJEpprZrHQzTSYCrw2OfXaEGQMbIDDeN0alG+XLhhdiuasCTCnkc48U8qixxlhKypopx6k8Rq24po3TIsJWEaU+L3aqq8msJxbbgLTUPAhIh+8jENjHOlw/VKT2KVOx5q5HHl/b3QDNG8izGw8uJTIU2KM2UlMGKCDUNA5xay5lp0IYnYdc449MZJGOAnWbBy5+wT+jgw4smaYYdtBuA+jCEWQIsKOiNf4dKuiDa9z2EsudaAbvw==,iv:TCdawyY/KbRWXER8uTQgH+av8zB42GDirLv80Oup20c=,tag:8QB3O9Oob3k9PvdZqdZTEg==,type:str]",
+	"sops": {
+		"age": [
+			{
+				"enc": "-----BEGIN AGE ENCRYPTED FILE-----\nYWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBxeTN6QTdSSHBkdzdqcWVV\nMzBGOGNPZ2pheG1DdWY5dVFwcnZiOWVWQXo4Cm8vMXcvZHRxUmwwV2oxTFdPT09F\nZUVQMC9BQU1sd1loSUtaaXJLOXp1ZEEKLS0tIHB5c2JTdFRpU2RGTTRvNG8yanNo\nbkswbytFYUNsZTFtdXdOYVk0MDQweU0KqJsYH0/bo1I9Atn+Qi43NKYzHURWuIUS\nVe5vBYOIJFPyGFI34xdEds3gnPks4wkofPBMr7te4yHxHtrgp1KH6Q==\n-----END AGE ENCRYPTED FILE-----\n",
+				"recipient": "age1nhmehn0ry5knns3zl9xx546cfn0frsmu35vvvlputm676wae8ufqqjz5l3"
+			},
+			{
+				"enc": "-----BEGIN AGE ENCRYPTED FILE-----\nYWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBDdGtHdnlBa2lEWlBRUWc2\ndFRDeU9ieXZjaUp6UmI5QkJYQ2VlWDlSVmxZCk5zYlIwWEd4d2JFamNBRVhXUkpN\nelZETzYybTVaOGFlZVp6WkhPaldlU0EKLS0tIGZIT3pBTkx2amxGOWROS2lRVUdY\nL2NFNGozVnhsY011NDVvcHNQN3orRFEKIIFYsIfQdsdpZJa5IpslFLJh+SX4ALoG\ntW/3w73nDw7lOsJJw5I/K6rvm7dJ69ZwtHrt5byi2H+lyQp7TeKtjA==\n-----END AGE ENCRYPTED FILE-----\n",
+				"recipient": "age15karlss9et0gfzl7ct0n7eyuy8a8dhkr0puyw0m8wmmkyggre5lqvthndt"
+			},
+			{
+				"enc": "-----BEGIN AGE ENCRYPTED FILE-----\nYWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBENEFaVmFuNWN0RmR5RWVE\nMzY5bnIxRHdndmtDR2QyUXF6SFlHK2xlVGtRClptV0lPTlMzcnpZUG53SjhEblox\nU3dER0RTZVB2TGxFSEhpc3VrTjVuczQKLS0tIFYwQ2toSExWVXpVZHcwSFdWbzFE\nSlFzcFd3REtIT3QxbGhld1ZiODE1dXcKDSx0B3cJt0kbOAYlxg2ZvhaGWtrfnbDO\nyJBhoXRsew2aaahnAm2ddghxgnwGuRBSKKK18V0VOl4iTrNDCXnReA==\n-----END AGE ENCRYPTED FILE-----\n",
+				"recipient": "age15kgceczsz93mtkt4w2w06nfnhcsvygs9mawjxse2x4d8k3590desmn88fd"
+			}
+		],
+		"lastmodified": "2026-09-04T16:11:43Z",
+		"mac": "ENC[AES256_GCM,data:V05dcCcPw8Sxc/OLAlF+bWK6YzTxjqaOemPLb/kwLxHqXRi/NsfXPaOn/PMriNhkvNd1cPw1XOkl67k4z/8pKJxmO9qtuIr28EiKwwWJ1kcJNGHI+haBL6rm3TTJ7WxfgbsCu6SJRXV/kH5zMGw1EeeFzIV6gY71CQWxd5e6TKA=,iv:zeJrlGyi2gSzuLOqOzHmuoKTEu7sZLv2sht4dN9qnR8=,tag:/Wh7S55D/i6ePOnmY6aU3g==,type:str]",
+		"unencrypted_suffix": "_unencrypted",
+		"version": "3.13.3"
+	}
+}

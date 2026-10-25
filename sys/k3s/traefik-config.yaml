@@ -1,0 +1,32 @@
+apiVersion: helm.cattle.io/v1
+kind: HelmChartConfig
+metadata:
+  name: traefik
+  namespace: kube-system
+spec:
+  valuesContent: |-
+    ports:
+      web:
+        exposedPort: 8080
+        forwardedHeaders:
+          trustedIPs:
+            - "10.42.0.0/16"
+            - "2001:db8:42::/56"
+        http:
+          encodedCharacters:
+            allowEncodedHash: true
+            allowEncodedSlash: true
+      websecure:
+        exposedPort: 8443
+        forwardedHeaders:
+          trustedIPs:
+            - "10.42.0.0/16"
+            - "2001:db8:42::/56"
+        http:
+          encodedCharacters:
+            allowEncodedHash: true
+            allowEncodedSlash: true
+    service:
+      spec:
+        externalIPs:
+          - "192.168.50.54"

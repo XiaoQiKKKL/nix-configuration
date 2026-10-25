@@ -1,0 +1,10 @@
+keys:
+  - &user_xiaoqi age1nhmehn0ry5knns3zl9xx546cfn0frsmu35vvvlputm676wae8ufqqjz5l3
+  - &host_nixos age15karlss9et0gfzl7ct0n7eyuy8a8dhkr0puyw0m8wmmkyggre5lqvthndt
+  - &home_server age15kgceczsz93mtkt4w2w06nfnhcsvygs9mawjxse2x4d8k3590desmn88fd
+creation_rules:
+  - key_groups:
+      - age:
+          - *user_xiaoqi
+          - *host_nixos
+          - *home_server
