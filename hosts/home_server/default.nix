@@ -17,6 +17,7 @@
     ../../sys/docker
     ../../sys/kde
     ../../sys/qbittorrent
+    ../../sys/tailscale
 
     # ./postgres-ess.nix
     # ./caddy
