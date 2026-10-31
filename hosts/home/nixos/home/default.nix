@@ -9,17 +9,17 @@
   };
 
   imports = [
-    ../../../home/core
-    ../../../home/desktop
+    ../../../../home/core
+    ../../../../home/desktop
 
-    ../../../home/obs
-    ../../../home/wechat
-    ../../../home/noctalia
-    ../../../home/reaper
-    ../../../home/tailscale
-    ../../../home/rust
-    ../../../home/mc
-    ../../../home/android
+    ../../../../home/obs
+    ../../../../home/wechat
+    ../../../../home/noctalia
+    ../../../../home/reaper
+    ../../../../home/tailscale
+    ../../../../home/rust
+    ../../../../home/mc
+    ../../../../home/android
 
     ./desktop.nix
     ./niri

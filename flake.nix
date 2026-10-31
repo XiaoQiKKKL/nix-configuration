@@ -1,4 +1,6 @@
 {
+  outputs = inputs: import ./outputs inputs;
+
   description = "A simple NixOS flake";
 
   nixConfig = {
@@ -60,55 +62,10 @@
       url = "github:oxalica/rust-overlay";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-  };
 
-  outputs =
-    {
-      nixpkgs,
-      home-manager,
-      ...
-    }@inputs:
-    {
-      nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
-        specialArgs = { inherit inputs; };
-        modules = [
-          {
-            nixpkgs.config.android_sdk.accept_license = true;
-          }
-
-          ./hosts/nixos
-          ./hosts/nixos/home/overlays.nix
-
-          home-manager.nixosModules.home-manager
-          {
-            home-manager.useGlobalPkgs = true;
-            home-manager.backupFileExtension = "backup";
-            home-manager.useUserPackages = true;
-            home-manager.users.xiaoqi = import ./hosts/nixos/home;
-            home-manager.extraSpecialArgs = { inherit inputs; };
-          }
-        ];
-      };
-      nixosConfigurations.home_server = nixpkgs.lib.nixosSystem {
-        specialArgs = { inherit inputs; };
-        modules = [
-          {
-            nixpkgs.config.android_sdk.accept_license = true;
-          }
-
-          ./hosts/home_server
-          ./hosts/home_server/home/overlays.nix
-
-          home-manager.nixosModules.home-manager
-          {
-            home-manager.useGlobalPkgs = true;
-            home-manager.backupFileExtension = "backup";
-            home-manager.useUserPackages = true;
-            home-manager.users.xiaoqi = import ./hosts/home_server/home;
-            home-manager.extraSpecialArgs = { inherit inputs; };
-          }
-        ];
-      };
-
+    microvm = {
+      url = "github:microvm-nix/microvm.nix";
+      inputs.nixpkgs.follows = "nixpkgs";
     };
+  };
 }

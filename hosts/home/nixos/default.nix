@@ -8,25 +8,25 @@
     ./hardware-configuration.nix
     ./user.nix
 
-    ../../sys/core
-    ../../sys/desktop
+    ../../../sys/core
+    ../../../sys/desktop
 
-    ../../sys/drivers/nvidia-3060ti-g6x.nix
-    ../../sys/drivers/otd.nix
-    ../../sys/drivers/printing.nix
-    ../../sys/drivers/touchpad.nix
+    ../../../sys/drivers/nvidia-3060ti-g6x.nix
+    ../../../sys/drivers/otd.nix
+    ../../../sys/drivers/printing.nix
+    ../../../sys/drivers/touchpad.nix
 
-    ../../sys/flatpak
-    ../../sys/docker
-    ../../sys/sunshine
-    #../../sys/qbittorrent
-    ../../sys/steam
-    ../../sys/gamescope
-    #../../sys/k3s
-    #../../sys/postgresql
-    ../../sys/niri
-    ../../sys/noctalia
-    ../../sys/tailscale
+    ../../../sys/flatpak
+    ../../../sys/docker
+    ../../../sys/sunshine
+    #../../../sys/qbittorrent
+    ../../../sys/steam
+    ../../../sys/gamescope
+    #../../../sys/k3s
+    #../../../sys/postgresql
+    ../../../sys/niri
+    ../../../sys/noctalia
+    ../../../sys/tailscale
 
     #./postgres-ess.nix
     #./caddy

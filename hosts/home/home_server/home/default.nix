@@ -9,12 +9,12 @@
   };
 
   imports = [
-    ../../../home/core
-    ../../../home/desktop
+    ../../../../home/core
+    ../../../../home/desktop
 
-    ../../../home/wechat
+    ../../../../home/wechat
 
-    #../../../home/k3s
+    #../../../../home/k3s
 
     ./desktop.nix
   ];

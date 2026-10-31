@@ -9,15 +9,15 @@
 
     ./hardware-configuration.nix
 
-    ../../sys/core
-    ../../sys/desktop
+    ../../../sys/core
+    ../../../sys/desktop
 
-    ../../sys/drivers/nvidia-1060.nix
+    ../../../sys/drivers/nvidia-1060.nix
 
-    ../../sys/docker
-    ../../sys/kde
-    ../../sys/qbittorrent
-    ../../sys/tailscale
+    ../../../sys/docker
+    ../../../sys/kde
+    ../../../sys/qbittorrent
+    ../../../sys/tailscale
 
     # ./postgres-ess.nix
     # ./caddy
