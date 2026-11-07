@@ -1,10 +1,12 @@
 keys:
-  - &user_xiaoqi age1nhmehn0ry5knns3zl9xx546cfn0frsmu35vvvlputm676wae8ufqqjz5l3
-  - &host_nixos age15karlss9et0gfzl7ct0n7eyuy8a8dhkr0puyw0m8wmmkyggre5lqvthndt
-  - &home_server age15kgceczsz93mtkt4w2w06nfnhcsvygs9mawjxse2x4d8k3590desmn88fd
+  - &nixos age1nhmehn0ry5knns3zl9xx546cfn0frsmu35vvvlputm676wae8ufqqjz5l3
+  - &nixos_sys age15karlss9et0gfzl7ct0n7eyuy8a8dhkr0puyw0m8wmmkyggre5lqvthndt
+  - &home_server age16pxs94srw39g8pr67nspe0y9juhmsrp4k340y0klmap63x4xma8qrcsg75
+  - &home_server_sys age15kgceczsz93mtkt4w2w06nfnhcsvygs9mawjxse2x4d8k3590desmn88fd
 creation_rules:
   - key_groups:
       - age:
-          - *user_xiaoqi
-          - *host_nixos
+          - *nixos
+          - *nixos_sys
           - *home_server
+          - *home_server_sys
