@@ -31,7 +31,7 @@
     ./network.nix
   ];
 
-  networking.hostName = "home_server"; # Define your hostname.
+  networking.hostName = "homeserver"; # Define your hostname.
   # Workaround for GNOME autologin: https://github.com/NixOS/nixpkgs/issues/103746#issuecomment-945091229
   systemd.services."getty@tty1".enable = false;
   systemd.services."autovt@tty1".enable = false;
