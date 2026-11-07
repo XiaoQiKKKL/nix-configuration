@@ -3,7 +3,7 @@
     enable = true;
     settings = {
       user = {
-        name = "XiaoQi_Sun";
+        name = "XiaoQiKKKL";
         email = "xiaoq21731057382021@outlook.com";
       };
     };
