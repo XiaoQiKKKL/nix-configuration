@@ -11,6 +11,9 @@
         signByDefault = true;
         format = "ssh";
       };
+      gpg = {
+        format = "ssh";
+      };
     };
   };
 }
