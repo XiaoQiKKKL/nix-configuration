@@ -2,6 +2,9 @@
 {
   programs.neovim = {
     enable = true;
+    defaultEditor = true;
+    viAlias = true;
+    vimAlias = true;
 
     extraPackages = with pkgs; [
       nodejs
@@ -14,8 +17,8 @@
       ruff
     ];
   };
-  xdg.configFile."nvim" = {
-    source = ./config;
-    recursive = true;
-  };
+  # xdg.configFile."nvim" = {
+  #   source = ./config;
+  #   recursive = true;
+  # };
 }
