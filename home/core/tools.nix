@@ -33,7 +33,6 @@
     sysstat
     mesa-demos
     psmisc
-    nil
 
     # 网络与抓包工具
     wireguard-tools

@@ -8,17 +8,17 @@
 
     extraPackages = with pkgs; [
       nodejs
+      nixd
       jq
       prettier
       nixfmt
-      nil
       fsautocomplete
       statix
       ruff
     ];
   };
-  # xdg.configFile."nvim" = {
-  #   source = ./config;
-  #   recursive = true;
-  # };
+  xdg.configFile."nvim" = {
+    source = ./config;
+    # recursive = true;
+  };
 }
