@@ -3,7 +3,13 @@
   imports = [
     inputs.noctalia-greeter.nixosModules.default
   ];
-  services.displayManager.noctalia-greeter = {
-    enable = true;
+  services.displayManager = {
+    autoLogin = {
+      enable = true;
+      user = "xiaoqi";
+    };
+    noctalia-greeter = {
+      enable = true;
+    };
   };
 }

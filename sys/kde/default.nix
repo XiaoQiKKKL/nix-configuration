@@ -3,6 +3,10 @@
   services = {
     desktopManager.plasma6.enable = true;
     displayManager = {
+      autoLogin = {
+        enable = true;
+        user = "xiaoqi";
+      };
       sddm = {
         enable = true;
         wayland.enable = true;
